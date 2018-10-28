@@ -1,0 +1,6 @@
+1. 安装fcitx：从Ubuntu 软件管理器中查找并安装
+2. 下载搜狗拼音Linux安装包(sogoupinyin_2.2.0.0108_amd64.deb),并安装 sudo dpkg -i sogoupinyin_2.2.0.0108_amd64.deb
+3. 过程可能提示一些依赖关系错误，如libfcitx-qt0 等
+4. 安装 sudo apt install libfcitx-qt0, 安装过程如果有出现错误中断，可以执行 sudo apt --fix-broken install 修复
+5. 再重新安装搜狗拼音安装包，见步骤2
+6. 重启，然后通过fcitx配置调整 搜狗拼音到首位，重启，就可通过 Ctrl+Space切换
